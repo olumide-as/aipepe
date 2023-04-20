@@ -1,0 +1,23 @@
+.aipepe__exchanges{
+    padding: 0rem 6rem;
+}
+.aipepe__exchanges-brand{
+    padding: 4rem 4rem;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+@media screen and (max-width: 768px){
+    .aipepe__exchanges{
+        padding: 0rem;
+    }
+
+    .aipepe__exchanges-brand{
+        padding: 2rem 2rem;
+    }
+}
+
+.aipepe__exchanges-brand a:hover{
+    scale: 1.05;
+    transition: 0.5s ease-out; 
+}

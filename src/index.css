@@ -1,13 +1,35 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@font-face {
+  font-family: "Slackey";
+  src: url("Fonts/Slackey-Regular.ttf");
+  font-weight: normal;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+@font-face {
+  font-family: "Karla";
+  src: url("Fonts/Karla-Light.ttf");
+  font-weight: light;
 }
+
+@font-face {
+  font-family: "Karla";
+  src: url("Fonts/Karla-Regular.ttf");
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "Schoolbell";
+  src: url("Fonts/Schoolbell-Regular.ttf");
+  font-weight: normal;
+}
+
+
+:root {
+    --color-bg: #FFFFFF;
+    --color-1: #4c9540;
+    --color-2: #105D6B50;
+    --color-text: #FFFFFF;
+    --font-family: 'Schoolbell'; 
+    --font-family-1: 'Slackey';
+    --font-family-2: 'Karla'; 
+}
+

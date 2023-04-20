@@ -1,0 +1,72 @@
+.aipepe__home{
+    display:flex;
+}
+
+.aipepe__home-content{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    padding: 0rem 0rem 0rem 6rem;
+}
+
+.aipepe__home-content h1{
+    font-family: var(--font-family-1);
+    color: var(--color-text);
+    font-style: normal;
+    font-weight: 800;
+    font-size: 96px;
+    line-height: 80px;
+}
+
+.aipepe__home-content p{
+    font-family: var(--font-family);
+    color: var(--color-text);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    padding: 2rem 0rem;
+}
+
+.aipepe__home-brand {
+    display: flex;
+}
+
+.aipepe__home-bg{
+    display:flex;
+    justify-content: flex-end;
+    align-items: center;
+    flex: 1;
+}
+
+.aipepe__home-bg img{
+    border-radius: 2rem 10rem;
+    width: 100%;
+}
+
+@media screen and ( max-width: 768px ) {
+    .aipepe__home{
+        flex-direction: column;
+    }
+
+    .aipepe__home-content{
+        padding: 4rem 2rem 2rem 2rem;
+    }
+
+    .aipepe__home-content h1{
+        font-size: 75px;
+    }
+}
+
+@media screen and (max-width:425px) {
+    .aipepe__home-content h1{
+        font-size: 50px;
+        line-height: 45px;
+    }   
+}
+
+.aipepe__home-content a:hover{
+    scale: 1.1;
+    transition: 1s ease-out;
+}
