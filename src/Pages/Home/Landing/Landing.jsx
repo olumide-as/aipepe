@@ -1,6 +1,6 @@
 import React  from 'react';
 import './Landing.css';
-import { AiPepe1, Discord, Twitter} from '../../../Assets';
+import { AiPepe1, Discord, Twitter, zealy} from '../../../Assets';
 import { Social } from '../../../Components';
 
 
@@ -16,6 +16,7 @@ function Landing() {
             <div className='aipepe__home-brand'>
                 <a href="https://twitter.com/AiPepe_Arb" target="_blank" rel="noopener noreferrer"><Social imgUrl={Twitter }/></a>
                 <a href="https://discord.gg/bNybP2ErPx" target="_blank" rel="noopener noreferrer"><Social imgUrl={Discord }/></a>
+                <a href="https://zealy.io/c/aipepearb-6556/" target="_blank" rel="noopener noreferrer"><Social imgUrl={zealy }/></a>
             </div>
         </div>
 

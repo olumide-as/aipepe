@@ -28,17 +28,10 @@
     padding: 2rem 0rem;
 }
 
-.aipepe__tokenomics-bg{
-    display:flex;
-    justify-content: flex-end;
-    align-items: center;
-    flex: 1;
-}
 
-.aipepe__tokenomics-bg {
-    background: var(--color-text);
-    border-radius: 2rem 2rem 5rem 5rem;
-    margin: 3rem;
+.aipepe__tokenomics-bg img{
+    width: 300px;
+    padding: 1rem;
 }
 
 @media screen and ( max-width: 768px ) {

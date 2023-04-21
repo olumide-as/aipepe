@@ -22,3 +22,5 @@ export {default as camelot} from "./camelot.jpeg";
 export {default as ethereum} from "./ethereum.png";
 export {default as wallet} from "./wallet.png";
 export {default as swap} from "./swap.png";
+export {default as charts} from "./charts.png";
+export {default as zealy} from "./zealy.png";

@@ -1,40 +1,7 @@
-import React  from 'react';
+import React, { useState } from 'react';
+import { charts } from '../../../Assets';
 import './Tokenomics.css';
-import { Chart as ChartJS, ArcElement, Tooltip, Legend } from 'chart.js';
-import { Doughnut } from 'react-chartjs-2';
 
-
-//Pie Chart function
-ChartJS.register(ArcElement, Tooltip, Legend);
-
-const data = {
-  labels: ['Tax Burn 15%', 'Development 4%', 'Buy ARB 3%', 'Top Traders Rewards 1%', 'Dividends to $AIPEPE and NFT Holders 4%', 'Rewards to $AIPEPE/ETH LP 2%', 'Burn 1%'],
-  datasets: [
-    {
-      label: '# of Tokenomics',
-      data: [15, 4, 3, 1, 4, 2, 1],
-      backgroundColor: [
-        'rgba(255, 99, 132, 0.8)',
-        'rgba(54, 162, 235, 0.8)',
-        'rgba(255, 206, 86, 0.8)',
-        'rgba(75, 192, 192, 0.8)',
-        'rgba(153, 102, 255, 0.8)',
-        'rgba(255, 159, 64, 0.8)',
-        'rgba(255, 75, 82, 0.8)',
-      ],
-      borderColor: [
-        'rgba(255, 99, 132, 1)',
-        'rgba(54, 162, 235, 1)',
-        'rgba(255, 206, 86, 1)',
-        'rgba(75, 192, 192, 1)',
-        'rgba(153, 102, 255, 1)',
-        'rgba(255, 159, 64, 1)',        
-        'rgba(255, 75, 82, 1)',
-      ],
-      borderWidth: 1,
-    },
-  ],
-};
 
 
 function Tokenomics() {
@@ -52,7 +19,7 @@ function Tokenomics() {
         </div>
 
         <div className="aipepe__tokenomics-bg">
-        <Doughnut data={data} />
+          <img src={charts} alt="Aipepe About"/>
         </div>
 
     </div>
@@ -60,3 +27,4 @@ function Tokenomics() {
 }
 
 export default Tokenomics
+
