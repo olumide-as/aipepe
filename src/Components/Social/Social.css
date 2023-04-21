@@ -1,10 +1,10 @@
-.aipepe__brand{
+.aipepe__social{
     display: flex;
     flex-direction: row;
     padding: 1rem;
 }
 
-.aipepe__brand p{
+.aipepe__social p{
 font-family: var(--font-family);
 color: var(--color-text);
 font-style: normal;
@@ -15,6 +15,6 @@ text-align: justify;
 padding: 0rem 1rem;
 }
 
-.aipepe__brand img{
+.aipepe__social img{
     height: 75px;
 }

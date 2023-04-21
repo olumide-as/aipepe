@@ -43,6 +43,13 @@
 
 }
 
+.aipepe__navbar-button a{
+    color: var(--color-1);
+    background-color: var(--color-text);
+    border-radius: 0.5rem;
+}
+
+
 .aipepe__navbar-menu{
     margin-left: 1rem;
     display: none; 

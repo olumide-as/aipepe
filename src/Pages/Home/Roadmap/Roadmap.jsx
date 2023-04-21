@@ -18,9 +18,9 @@ const Roadmap = () => {
                     <hr/>
                     <li>CoinGecko/Coinmarketcap Listings</li>
                     <hr/>
-                    <li>1,000+ Holders</li>
+                    <li>Airdrop Distribution</li>
                     <hr/>
-                    <li>Get $PEPE Trending on twitter with our memetic power</li>
+                    <li>Get $AIPEPE Trending on twitter with our memetic power</li>
                     <hr/>
                 </ul>
             </div>
@@ -28,9 +28,9 @@ const Roadmap = () => {
             <div className='aipepe__roadmap-list__item'>
                 <h5>Phase 2</h5>
                 <ul>
-                    <li>Community Partnerships Pepe Times digital newsletter</li>
+                    <li>Community Partnerships AiPepe Times digital newsletter</li>
                     <hr/>
-                    <li>Formation of token gated discord group, Pepe Palace, for holders, more details tba</li>
+                    <li>Formation of token gated discord group, AiPepe Palace, for holders, more details tba</li>
                     <hr/>
                     <li>CEX Listings 10,000+holders</li>
                     <hr/>
@@ -40,11 +40,11 @@ const Roadmap = () => {
             <div className='aipepe__roadmap-list__item'>
                 <h5>Phase 3</h5>
                 <ul>
-                    <li>Pepe themed merch, % revenues to $pepe buy and burn</li>
+                    <li>AiPepe themed merch, % revenues to $pepe buy and burn</li>
                     <hr/>
-                    <li>Pepe Academy: details tba</li>
+                    <li>AiPepe Academy: details tba</li>
                     <hr/>
-                    <li>Pepe Tools: details tba</li>
+                    <li>AiPepe Tools: details tba</li>
                     <hr/>
                     <li>T1 Exchange Listings 100,000+ holders</li>
                     <hr/>

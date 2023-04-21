@@ -5,6 +5,7 @@ import Contact from './Contact/Contact'
 import Exchanges from './Exchanges/Exchanges'
 import Landing from './Landing/Landing'
 import Roadmap from './Roadmap/Roadmap'
+import Tokenomics from './Tokenomics/Tokenomics'
 
 const Home = () => {
   return (
@@ -13,6 +14,7 @@ const Home = () => {
       <Exchanges/>
       <About/>
       <Buy/>
+      <Tokenomics/>
       <Roadmap/>
       <Contact/>
     </div>

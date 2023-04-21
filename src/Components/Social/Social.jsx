@@ -5,7 +5,7 @@ import './Social.css';
 const Social = ({imgUrl}) => {
   return (
 
-    <div className="aipepe__brand">
+    <div className="aipepe__social">
       <img src={imgUrl} alt="social"/>
     </div>
     

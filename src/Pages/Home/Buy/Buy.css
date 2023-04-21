@@ -25,6 +25,16 @@
 .aipepe__buy-list{
     padding: 2rem 0rem;
 }
+
+.aipepe__buy-list__item{
+    width: 320px;
+}
+
+.aipepe__buy-list h2 {
+    font-size: 40px;
+
+}
+
     
 }
 

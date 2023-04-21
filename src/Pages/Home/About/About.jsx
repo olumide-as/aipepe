@@ -8,13 +8,13 @@ function About() {
     <div className="aipepe__about section__padding" id="about">
 
         <div className="aipepe__about-bg">
-            <img src={AiPepe2} alt="Aipepe"/>
+            <img src={AiPepe2} alt="Aipepe About"/>
         </div>
         
         <div className="aipepe__about-content">
             <h2>About Us</h2>
             <p>The most memeable AI memecoin in existence. <br></br>
-            The dogs have had their day, it’s time for AIPepe to take reign on Arbitrum.
+            The dogs have had their day, it’s time for AiPepe to take reign on Arbitrum.
             </p>
         </div>
 

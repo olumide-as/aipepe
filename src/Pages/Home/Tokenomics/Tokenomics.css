@@ -1,0 +1,57 @@
+.aipepe__tokenomics{
+    display:flex;
+}
+
+.aipepe__tokenomics-content{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    padding: 0rem 0rem 0rem 6rem;
+}
+
+.aipepe__tokenomics-content h2 {
+    font-family: var(--font-family-1);
+    font-size: 50px;
+    color: var(--color-text);
+    padding-bottom: 1rem;
+    text-align: center;
+}
+
+.aipepe__tokenomics-content p{
+    font-family: var(--font-family);
+    color: var(--color-text);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    padding: 2rem 0rem;
+}
+
+.aipepe__tokenomics-bg{
+    display:flex;
+    justify-content: flex-end;
+    align-items: center;
+    flex: 1;
+}
+
+.aipepe__tokenomics-bg {
+    background: var(--color-text);
+    border-radius: 2rem 2rem 5rem 5rem;
+    margin: 3rem;
+}
+
+@media screen and ( max-width: 768px ) {
+    .aipepe__tokenomics{
+        flex-direction: column;
+    }
+
+    .aipepe__tokenomics-content{
+        padding: 4rem 0rem 0rem 0rem;
+    }
+
+    .aipepe__tokenomics{
+        padding: 0rem 2rem 6rem 2rem;
+    }
+
+}

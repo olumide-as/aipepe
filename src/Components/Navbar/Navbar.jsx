@@ -11,7 +11,7 @@ const Menu = () => (
     <a href="#buy">How to Buy</a>
     <a href="#tokenomics">Tokenomics</a>
     <a href="#roadmap">Roadmap</a>
-    <a href="#buynow">Buy Now</a>
+    <div className='aipepe__navbar-button'><a href="#buynow">Buy Now</a></div>
   </>
 )
 
