@@ -10,8 +10,8 @@ const Exchanges = () => {
     <div className="aipepe__exchanges section__padding " id='exchanges'>
 
       <div className="aipepe__exchanges-brand">
-        <a href="#home" target="_blank" rel="noopener noreferrer"><Brand imgUrl={mexc} brand="mexc (coming soon)"/></a>
         <a href="#home" target="_blank" rel="noopener noreferrer"><Brand imgUrl={camelot} brand="camelot"/></a>
+        <a href="#home" target="_blank" rel="noopener noreferrer"><Brand imgUrl={mexc} brand="mexc (coming soon)"/></a>
         <a href="#home" target="_blank" rel="noopener noreferrer"><Brand imgUrl={gateio} brand="gate.io (coming soon)"/></a>
         <a href="#home" target="_blank" rel="noopener noreferrer"><Brand imgUrl={houbi} brand="huobi (coming soon)"/></a>
         <a href="#home" target="_blank" rel="noopener noreferrer"><Brand imgUrl={poloniex} brand="poloniex (coming soon)"/></a>
