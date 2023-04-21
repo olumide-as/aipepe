@@ -46,6 +46,10 @@
         flex-direction: column;
     }
 
+    .aipepe__buy-content h2 {
+        font-size: 40px;
+    }
+
     .aipepe__tokenomics-content{
         padding: 4rem 0rem 0rem 0rem;
     }
@@ -55,3 +59,4 @@
     }
 
 }
+
